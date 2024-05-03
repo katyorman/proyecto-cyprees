@@ -1,14 +1,14 @@
-import { loginElements } from "./login.elemnts";
+import { loginElements } from "./login.elements";
 
-export class loginMethods{
+export class LoginMethods{
     static insertUsername(username){
-        loginElements.textboxes.username.invoke('val', username)
+        LoginElements.textboxes.username.invoke('val', username)
     }
     static insertPassword(password){
-        loginElements.textboxes.password.invoke('val',password)
+        LoginElements.textboxes.password.invoke('val',password)
     }
     static clickOnLoginButton(){
-        loginElements.buttons.login.click()
+        LoginElements.buttons.login.click()
     }
     static login(username, password){
         this.insertUsername(username)

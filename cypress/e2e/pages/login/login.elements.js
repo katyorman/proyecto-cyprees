@@ -1,4 +1,4 @@
-export class loginElements{
+export class LoginElements{
     static get textboxes(){
         return {
             get username(){
@@ -11,6 +11,7 @@ export class loginElements{
         }
           
     }
+    
     static get buttons(){
         return {
             get close(){

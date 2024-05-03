@@ -11,6 +11,6 @@ export class singupMethods{
     static.singup(username, password){
         this.insertUsername(username);
         this.insertPassword(password);
-        this.clickOnSingupButton();
+        this.clickOnSingupButton()
     }
 }
